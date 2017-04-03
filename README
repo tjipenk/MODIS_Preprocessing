@@ -1,0 +1,9 @@
+Matlab fuction for MODIS Preprocessing
+########################################
+
+## Raster to ASCII
+raster_to_txt( raster_file, filter, output_format)
+raster_file= *.tif with multiband timeseries
+filter --> 'wavelet' and 'lowpass' filter
+output_format --> 'txt' or 'nc' file
+

@@ -1,0 +1,5 @@
+%% Bandpass filter
+s = tf('s');
+Ho = 1.1221;
+Fc = 3;
+Wo = Fc/(2*pi)
